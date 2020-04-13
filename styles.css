@@ -1,0 +1,226 @@
+body {
+  background-color: #FFFFFF;
+}
+
+#main {
+  background-color: #FFFFFF;
+  margin: auto;
+  font-family: 'Poor Story', 'Comic Sans MS', cursive;
+}
+
+@media only screen and (max-width: 899px) {
+  #main {
+    width: 100%;
+  }
+  #nav-bar a {
+    font-size: 1em;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  #footer a {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  #main {
+    width: 60%;
+  }
+  #nav-bar a {
+    font-size: 1em;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  #footer a {
+    font-size: 1em;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+}
+
+@keyframes title {
+  50% {color: #FFFFFF;}
+}
+
+
+#title {
+  margin: auto;
+  font-size: 2em;
+  color: #fc9cd8;
+  background-color: #FFFFFF;
+  text-align: center;
+  animation-name: title;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+#img-div {
+  background-color: #fc9cd8;
+  font-size: 20px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+#img-heading {
+}
+
+.image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
+}
+#img-caption {
+}
+
+@keyframes ready {
+  100% {
+    color: #fc9cd8;
+    background-color: #FFFFFF;
+    text-align: center;
+    opacity: 0.8;
+  }
+}
+
+#img-div {
+  animation-name: ready;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
+
+@keyframes navi {
+  100% {
+    color: #fc9cd8;
+    background-color: #FFFFFF;
+    text-align: center;
+    opacity: 0.8;
+  }
+}
+
+#nav-bar {
+  background-color: #fc9cd8;
+  color: #FFFFFF;
+  width: 100%;
+  animation-name: navi;
+  animation-duration: 10s;
+  animation-iteration-count: 1;
+  animation-direction: inherit;
+  animation-fill-mode: forwards;
+}
+
+#nav-bar a {
+  color: #fc9cd8;
+  font-weight: bold;
+}
+
+#nav-bar a:hover {
+  font-weight: bold;
+  text-shadow: 1px 1px #000000;
+}
+
+#socials {
+	text-align: right;
+}
+
+#socials a {
+  color: #fc9cd8;
+  font-weight: bold;
+}
+
+#socials a:hover {
+  font-weight: bold;
+  text-shadow: 1px 1px #000000;
+}
+
+#content {
+  font-size: 20px;
+/*  color: #0930bd;*/
+  color: #ad6492;
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+#content a {
+  color: #fc9cd8;
+}
+
+
+#content-welcome {
+  text-align: center;
+  color: #ad6492;
+  font-size: 18px;
+}
+
+#content-welcome p {
+  text-align: justify;
+  margin: 0px;
+}
+
+
+#content-box {
+  text-align: center;
+}
+
+#content-box p {
+  text-align: left;
+  display: inline-block;
+  width: 40%;
+  padding: 10px;
+  margin: 0px;
+}
+
+.kanji {
+	text-align: left;
+	font-size: 20px;
+	font-weight: bold;
+	color: #ad6492;
+	padding: 5px;
+}
+
+#placeholder {
+  height: 100px;
+}
+
+
+#footer {
+  text-align: center;
+  font-size: 18px;
+  background-color: #fc9cd8;
+}
+
+#footer a {
+  color: #FFFFFF;
+}
+
+.some-space {
+  height: 150px;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+li {
+	padding-bottom: 10px;
+}
+
+a {
+  font-size: 18px;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+li:hover {
+  text-shadow: 1px 1px #000000;
+  font-weight: bold;
+  color: #fc9cd8;
+  cursor: default;
+}
